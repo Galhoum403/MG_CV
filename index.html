@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mohamed Saeed Galhoum | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- ========== MOBILE NAV ========== -->
+  <header class="mob-header">
+    <a href="#home" class="mob-logo">MSG</a>
+    <button class="mob-menu-btn" id="mobMenuBtn">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <!-- ========== LAYOUT WRAPPER ========== -->
+  <div class="layout">
+
+    <!-- ===== LEFT SIDEBAR (fixed photo panel) ===== -->
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-inner">
+
+        <!-- Photo -->
+        <div class="profile-photo">
+          <img src="photo_2026-10-03_01-25-28.jpg" alt="Mohamed Saeed Galhoum" />
+          <div class="online-dot"></div>
+        </div>
+
+        <!-- Name & Title -->
+        <h1 class="sidebar-name">Mohamed<br /><span>Galhoum</span></h1>
+        <p class="sidebar-role" id="sideTyped"></p>
+
+        <!-- Divider -->
+        <div class="sidebar-divider"></div>
+
+        <!-- Nav -->
+        <nav class="sidebar-nav">
+          <a href="#home" class="snav-link active" data-section="home">
+            <i class="fas fa-house"></i> <span>Home</span>
+          </a>
+          <a href="#about" class="snav-link" data-section="about">
+            <i class="fas fa-user"></i> <span>About</span>
+          </a>
+          <a href="#skills" class="snav-link" data-section="skills">
+            <i class="fas fa-code"></i> <span>Skills</span>
+          </a>
+          <a href="#experience" class="snav-link" data-section="experience">
+            <i class="fas fa-briefcase"></i> <span>Experience</span>
+          </a>
+          <a href="#education" class="snav-link" data-section="education">
+            <i class="fas fa-graduation-cap"></i> <span>Education</span>
+          </a>
+          <a href="#certifications" class="snav-link" data-section="certifications">
+            <i class="fas fa-award"></i> <span>Certifications</span>
+          </a>
+          <a href="#contact" class="snav-link" data-section="contact">
+            <i class="fas fa-envelope"></i> <span>Contact</span>
+          </a>
+        </nav>
+
+        <!-- Divider -->
+        <div class="sidebar-divider"></div>
+
+        <!-- Socials -->
+        <div class="sidebar-socials">
+          <a href="mailto:mdgalhoum@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+          <a href="tel:+201010123245" title="Phone"><i class="fas fa-phone"></i></a>
+          <a href="https://linkedin.com/in/mohamed-galhoum-746279354" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://wa.me/201010123245" target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+          <a href="https://www.facebook.com/3Mgalhoum/" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+        </div>
+
+        <!-- CV Download -->
+        <a href="M.Galhoum~CV.pdf" class="sidebar-cv-btn" download>
+          <i class="fas fa-download"></i> Download CV
+        </a>
+
+      </div>
+    </aside>
+
+    <!-- ===== RIGHT CONTENT PANEL ===== -->
+    <main class="main-content">
+
+      <!-- ======== HOME ======== -->
+      <section id="home" class="page-section hero-section">
+        <div class="hero-wrap">
+          <div class="hero-text">
+            <span class="hero-greeting">Hello, I'm</span>
+            <h2 class="hero-name">Mohamed Saeed<br /><span>Galhoum</span></h2>
+            <div class="hero-typed-wrap">
+              <span class="hero-typed" id="heroTyped"></span>
+              <span class="hero-cursor">|</span>
+            </div>
+            <p class="hero-desc">
+              Business Administration graduate specializing in HR Personnel Management and Coordination. Experienced in employee onboarding and records, supported by a solid technical background in ERP systems (Oracle &amp; SAP) and IT. Based in Egypt.
+            </p>
+            <div class="hero-stats">
+              <div class="hstat">
+                <strong>5+</strong>
+                <span>Certifications</span>
+              </div>
+              <div class="hstat-divider"></div>
+              <div class="hstat">
+                <strong>3</strong>
+                <span>Languages</span>
+              </div>
+            </div>
+            <div class="hero-btns">
+              <a href="#contact" class="btn-main">Hire Me <i class="fas fa-arrow-right"></i></a>
+              <a href="#about" class="btn-ghost">About Me</a>
+            </div>
+          </div>
+
+          <!-- Decorative floating cards -->
+          <div class="hero-cards">
+            <div class="hcard hcard-1">
+              <i class="fas fa-people-group"></i>
+              <div>
+                <strong>HR Management</strong>
+                <span>Personnel Management</span>
+              </div>
+            </div>
+            <div class="hcard hcard-2">
+              <i class="fas fa-database"></i>
+              <div>
+                <strong>Oracle & SAP</strong>
+                <span>ERP Systems</span>
+              </div>
+            </div>
+            <div class="hcard hcard-3">
+              <i class="fas fa-code"></i>
+              <div>
+                <strong>Web Design</strong>
+                <span>HTML &bull; CSS &bull; JS</span>
+              </div>
+            </div>
+            <div class="hcard hcard-4">
+              <i class="fas fa-file-excel"></i>
+              <div>
+                <strong>MS Office</strong>
+                <span>Excel · PowerPoint</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Scroll indicator -->
+        <a href="#about" class="scroll-indicator">
+          <span>Scroll Down</span>
+          <i class="fas fa-arrow-down"></i>
+        </a>
+      </section>
+
+      <!-- ======== ABOUT ======== -->
+      <section id="about" class="page-section">
+        <div class="sec-header">
+          <span class="sec-tag">Who I Am</span>
+          <h2>About <em>Me</em></h2>
+          <div class="sec-line"></div>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-photo-col">
+            <div class="about-photo-frame">
+              <img src="photo_2026-10-03_01-25-28.jpg" alt="Mohamed Saeed Galhoum" />
+              <div class="about-photo-tag">
+                <i class="fas fa-map-marker-alt"></i> Egypt
+              </div>
+            </div>
+            <div class="about-contact-quick">
+              <a href="mailto:mdgalhoum@gmail.com">
+                <i class="fas fa-envelope"></i>
+                mdgalhoum@gmail.com
+              </a>
+              <a href="tel:+201010123245">
+                <i class="fas fa-phone"></i>
+                +20 101 012 3245
+              </a>
+            </div>
+          </div>
+
+          <div class="about-info-col">
+            <h3 style="margin-bottom: 15px;">HR &amp; Personnel Coordinator</h3>
+            <p>
+              Business Administration graduate with hands-on experience in
+              <strong>Human Resources (HR) and Personnel Coordination</strong>,
+              covering employee onboarding, offboarding, personnel records, attendance and leave
+              management, social insurance (Forms 1, 2, 6), and HR reporting.
+            </p>
+            <p>
+              Currently working in <strong>banking customer service</strong> at Banque Misr,
+              bringing strong accuracy, confidentiality, and organizational skills.
+              Additionally skilled in <strong>ERP Systems</strong> (Oracle HRMS &amp; SAP),
+              <strong>Advanced Excel</strong> (MOS), and <strong>Web Development</strong>.
+            </p>
+
+            <div class="about-details">
+              <div class="adet">
+                <span class="adet-label">Full Name</span>
+                <span class="adet-val">Mohamed Saeed Galhoum</span>
+              </div>
+              <div class="adet">
+                <span class="adet-label">Degree</span>
+                <span class="adet-val">BBA — Benha University (2023)</span>
+              </div>
+              <div class="adet">
+                <span class="adet-label">Location</span>
+                <span class="adet-val">Shubra El Kheima, Qalyubia, Egypt</span>
+              </div>
+              <div class="adet">
+                <span class="adet-label">Status</span>
+                <span class="adet-val avail"><i class="fas fa-circle"></i> Available for Work</span>
+              </div>
+            </div>
+
+            <div class="lang-strip">
+              <div class="lstrip-item">
+                <span>Arabic</span>
+                <div class="ldots">
+                  <b class="f"></b><b class="f"></b><b class="f"></b><b class="f"></b><b class="f"></b>
+                </div>
+                <small>Native</small>
+              </div>
+              <div class="lstrip-item">
+                <span>English</span>
+                <div class="ldots">
+                  <b class="f"></b><b class="f"></b><b class="f"></b><b></b><b></b>
+                </div>
+                <small>B1</small>
+              </div>
+              <div class="lstrip-item">
+                <span>German</span>
+                <div class="ldots">
+                  <b class="f"></b><b></b><b></b><b></b><b></b>
+                </div>
+                <small>A1</small>
+              </div>
+            </div>
+
+            <a href="M.Galhoum~CV.pdf" class="btn-main" download>
+              <i class="fas fa-download"></i> Download CV
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ======== SKILLS ======== -->
+      <section id="skills" class="page-section sec-alt">
+        <div class="sec-header">
+          <span class="sec-tag">What I Know</span>
+          <h2>My <em>Skills</em></h2>
+          <div class="sec-line"></div>
+        </div>
+
+        <div class="skills-tabs-wrap">
+          <div class="stabs">
+            <button class="stab active" data-tab="hr"><i class="fas fa-people-group"></i> HR &amp; Personnel</button>
+            <button class="stab" data-tab="web"><i class="fas fa-code"></i> Web Development</button>
+            <button class="stab" data-tab="erp"><i class="fas fa-database"></i> Oracle &amp; SAP</button>
+            <button class="stab" data-tab="office"><i class="fas fa-file-excel"></i> MS Office</button>
+          </div>
+
+          <div class="stab-content active" id="stab-hr">
+            <div class="skills-grid">
+              <div class="skill-bar-item r"><span>Employee Onboarding &amp; Offboarding</span><div class="sbar"><div class="sfill" data-w="90"></div></div><em>90%</em></div>
+              <div class="skill-bar-item r"><span>Personnel Records Administration</span><div class="sbar"><div class="sfill" data-w="88"></div></div><em>88%</em></div>
+              <div class="skill-bar-item r"><span>Attendance &amp; Leave Management</span><div class="sbar"><div class="sfill" data-w="85"></div></div><em>85%</em></div>
+              <div class="skill-bar-item r"><span>Social Insurance (Forms 1, 2, 6)</span><div class="sbar"><div class="sfill" data-w="90"></div></div><em>90%</em></div>
+              <div class="skill-bar-item r"><span>Egyptian Labor Law &amp; Compliance</span><div class="sbar"><div class="sfill" data-w="85"></div></div><em>85%</em></div>
+              <div class="skill-bar-item r"><span>Talent Acquisition &amp; Recruitment</span><div class="sbar"><div class="sfill" data-w="80"></div></div><em>80%</em></div>
+              <div class="skill-bar-item r"><span>HR Reporting &amp; Documentation</span><div class="sbar"><div class="sfill" data-w="85"></div></div><em>85%</em></div>
+              <div class="skill-bar-item r"><span>Employee Relations</span><div class="sbar"><div class="sfill" data-w="87"></div></div><em>87%</em></div>
+            </div>
+          </div>
+
+          <div class="stab-content" id="stab-erp">
+            <div class="skills-grid">
+              <div class="skill-bar-item r"><span>Oracle HR Module</span><div class="sbar"><div class="sfill" data-w="75"></div></div><em>75%</em></div>
+              <div class="skill-bar-item r"><span>Oracle Forms</span><div class="sbar"><div class="sfill" data-w="70"></div></div><em>70%</em></div>
+              <div class="skill-bar-item r"><span>Oracle Reports</span><div class="sbar"><div class="sfill" data-w="68"></div></div><em>68%</em></div>
+              <div class="skill-bar-item r"><span>SAP HCM</span><div class="sbar"><div class="sfill" data-w="72"></div></div><em>72%</em></div>
+              <div class="skill-bar-item r"><span>SAP MM (Materials Mgmt)</span><div class="sbar"><div class="sfill" data-w="65"></div></div><em>65%</em></div>
+              <div class="skill-bar-item r"><span>SAP FI (Finance)</span><div class="sbar"><div class="sfill" data-w="60"></div></div><em>60%</em></div>
+              <div class="skill-bar-item r"><span>SQL / PL-SQL</span><div class="sbar"><div class="sfill" data-w="65"></div></div><em>65%</em></div>
+              <div class="skill-bar-item r"><span>ERP Data Migration</span><div class="sbar"><div class="sfill" data-w="62"></div></div><em>62%</em></div>
+            </div>
+          </div>
+
+          <div class="stab-content" id="stab-web">
+            <div class="skills-grid">
+              <div class="skill-bar-item r"><span>HTML5 &amp; CSS3</span><div class="sbar"><div class="sfill" data-w="90"></div></div><em>90%</em></div>
+              <div class="skill-bar-item r"><span>Bootstrap</span><div class="sbar"><div class="sfill" data-w="85"></div></div><em>85%</em></div>
+              <div class="skill-bar-item r"><span>JavaScript</span><div class="sbar"><div class="sfill" data-w="80"></div></div><em>80%</em></div>
+              <div class="skill-bar-item r"><span>Python</span><div class="sbar"><div class="sfill" data-w="75"></div></div><em>75%</em></div>
+              <div class="skill-bar-item r"><span>Shell Scripting</span><div class="sbar"><div class="sfill" data-w="70"></div></div><em>70%</em></div>
+              <div class="skill-bar-item r"><span>Responsive Web Design</span><div class="sbar"><div class="sfill" data-w="85"></div></div><em>85%</em></div>
+            </div>
+          </div>
+
+          <div class="stab-content" id="stab-office">
+            <div class="skills-grid">
+              <div class="skill-bar-item r"><span>Microsoft Excel (MOS)</span><div class="sbar"><div class="sfill" data-w="92"></div></div><em>92%</em></div>
+              <div class="skill-bar-item r"><span>Pivot Tables &amp; Charts</span><div class="sbar"><div class="sfill" data-w="90"></div></div><em>90%</em></div>
+              <div class="skill-bar-item r"><span>Data Analysis</span><div class="sbar"><div class="sfill" data-w="85"></div></div><em>85%</em></div>
+              <div class="skill-bar-item r"><span>PowerPoint (MOS)</span><div class="sbar"><div class="sfill" data-w="88"></div></div><em>88%</em></div>
+              <div class="skill-bar-item r"><span>Microsoft Word</span><div class="sbar"><div class="sfill" data-w="90"></div></div><em>90%</em></div>
+              <div class="skill-bar-item r"><span>Microsoft Outlook</span><div class="sbar"><div class="sfill" data-w="85"></div></div><em>85%</em></div>
+              <div class="skill-bar-item r"><span>Digital Record Keeping</span><div class="sbar"><div class="sfill" data-w="88"></div></div><em>88%</em></div>
+              <div class="skill-bar-item r"><span>Digital Marketing</span><div class="sbar"><div class="sfill" data-w="75"></div></div><em>75%</em></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Soft skills -->
+        <div class="soft-row">
+          <h4>Soft Skills</h4>
+          <div class="soft-chips">
+            <span>Communication</span><span>Problem Solving</span>
+            <span>Customer Relations</span><span>Attention to Detail</span>
+            <span>Teamwork</span><span>Time Management</span>
+            <span>Confidentiality</span><span>Accuracy</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- ======== EXPERIENCE ======== -->
+      <section id="experience" class="page-section">
+        <div class="sec-header">
+          <span class="sec-tag">Career Path</span>
+          <h2>Work <em>Experience</em></h2>
+          <div class="sec-line"></div>
+        </div>
+
+        <div class="timeline">
+          <div class="tl-item r">
+            <div class="tl-dot"><i class="fas fa-university"></i></div>
+            <div class="tl-card">
+              <div class="tl-meta">
+                <span class="tl-date"><i class="fas fa-calendar-alt"></i> Mar 2026 - Present</span>
+                <span class="tl-badge-cur">Current</span>
+              </div>
+              <h3>Customer Service Representative</h3>
+              <p class="tl-company"><i class="fas fa-building"></i> Banque Misr</p>
+              <ul>
+                <li>Provide direct front-line banking customer support, handling 50+ daily financial inquiries and account transactions accurately and efficiently.</li>
+                <li>Process transactions and update customer profiles and KYC records while maintaining strict data accuracy and banking confidentiality.</li>
+                <li>Follow Central Bank procedures and daily operational requirements, ensuring zero discrepancies in documentation, compliance, and reporting.</li>
+              </ul>
+              <div class="tl-tags">
+                <span>Banking</span><span>KYC &amp; Compliance</span><span>Financial Operations</span><span>Customer Relations</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="tl-item r">
+            <div class="tl-dot"><i class="fas fa-hotel"></i></div>
+            <div class="tl-card">
+              <div class="tl-meta">
+                <span class="tl-date"><i class="fas fa-calendar-alt"></i> Mar 2025 - Oct 2025</span>
+              </div>
+              <h3>Personnel Clerk (HR Coordinator)</h3>
+              <p class="tl-company"><i class="fas fa-building"></i> Palm Beach Resort - Hurghada</p>
+              <ul>
+                <li>Managed end-to-end employee onboarding and offboarding for 100+ hires, ensuring legal records fully complied with Egyptian Labor Law.</li>
+                <li>Tracked daily attendance, overtime, and leave balances for 350+ resort staff using Advanced Excel models to deliver accurate monthly payroll inputs.</li>
+                <li>Managed social insurance operations, processing official documentation (Forms 1, 2, and 6) for employees with zero legal penalties.</li>
+                <li>Handled employee inquiries regarding personnel matters, employee relations, health insurance benefits, and internal HR policies.</li>
+                <li>Supported recruitment activities and talent acquisition by screening resumes and scheduling interviews based on department hiring requirements.</li>
+                <li>Maintained and audited digital archives and physical personnel records for 350+ employees in accordance with Egyptian labor compliance standards.</li>
+              </ul>
+              <div class="tl-tags">
+                <span>Labor Law Compliance</span><span>Social Insurance (Forms 1, 2, 6)</span><span>Payroll Inputs</span><span>Talent Acquisition</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ======== EDUCATION ======== -->
+      <section id="education" class="page-section sec-alt">
+        <div class="sec-header">
+          <span class="sec-tag">Academic</span>
+          <h2>My <em>Education</em></h2>
+          <div class="sec-line"></div>
+        </div>
+
+        <div class="edu-card r">
+          <div class="edu-icon-wrap"><i class="fas fa-graduation-cap"></i></div>
+          <div class="edu-details">
+            <span class="edu-year">2019 – 2023</span>
+            <h3>Bachelor of Business Administration (BBA)</h3>
+            <p class="edu-school"><i class="fas fa-university"></i> Benha University — Graduated 2023</p>
+            <p class="edu-major">Major: Commerce &amp; Business Administration</p>
+            <div class="edu-chips">
+              <span>Human Resource Management</span>
+              <span>Organizational Behavior</span>
+              <span>Labor Law</span>
+              <span>Financial Accounting</span>
+              <span>Business Administration</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ======== CERTIFICATIONS ======== -->
+      <section id="certifications" class="page-section">
+        <div class="sec-header">
+          <span class="sec-tag">Achievements</span>
+          <h2>My <em>Certifications</em></h2>
+          <div class="sec-line"></div>
+        </div>
+
+        <div class="cert-grid">
+          <div class="cert-item r">
+            <div class="cert-icon c1"><i class="fas fa-people-group"></i></div>
+            <div class="cert-info">
+              <h4>Certified HR Professional</h4>
+              <p>Egyptian Ministry of Youth &amp; Sports</p>
+              <span>Oct 2021</span>
+            </div>
+          </div>
+          <div class="cert-item r">
+            <div class="cert-icon c2"><i class="fas fa-book-open"></i></div>
+            <div class="cert-info">
+              <h4>HR Management Fundamentals</h4>
+              <p>Alison</p>
+              <span>Dec 2024</span>
+            </div>
+          </div>
+          <div class="cert-item r">
+            <div class="cert-icon c3"><i class="fab fa-microsoft"></i></div>
+            <div class="cert-info">
+              <h4>Microsoft Office Specialist (MOS)</h4>
+              <p>Microsoft — Excel &amp; PowerPoint</p>
+              <span>Sep 2023</span>
+            </div>
+          </div>
+          <div class="cert-item r">
+            <div class="cert-icon c4"><i class="fas fa-landmark"></i></div>
+            <div class="cert-info">
+              <h4>Enabler Certificate</h4>
+              <p>Arab Academy &amp; Banque Misr (30 hrs)</p>
+              <span>Jun 2026</span>
+            </div>
+          </div>
+          <div class="cert-item r">
+            <div class="cert-icon c5"><i class="fab fa-google"></i></div>
+            <div class="cert-info">
+              <h4>Digital Marketing Certified</h4>
+              <p>Google Digital Garage</p>
+              <span>Oct 2024</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ======== CONTACT ======== -->
+      <section id="contact" class="page-section sec-alt">
+        <div class="sec-header">
+          <span class="sec-tag">Let's Talk</span>
+          <h2>Get In <em>Touch</em></h2>
+          <div class="sec-line"></div>
+        </div>
+
+        <div class="contact-wrap" style="display: flex; justify-content: center;">
+          <div class="contact-left r" style="max-width: 600px; width: 100%; text-align: center;">
+            <h3 style="margin-bottom: 35px;">Contact Details</h3>
+            <div class="cinfo-list" style="display: flex; flex-direction: column; align-items: center; gap: 20px;">
+              <div class="cinfo-item" style="justify-content: center;">
+                <div class="cinfo-icon"><i class="fas fa-envelope"></i></div>
+                <div style="text-align: left;"><label>Email</label><a href="mailto:mdgalhoum@gmail.com">mdgalhoum@gmail.com</a></div>
+              </div>
+              <div class="cinfo-item" style="justify-content: center;">
+                <div class="cinfo-icon"><i class="fas fa-phone"></i></div>
+                <div style="text-align: left;"><label>Phone / WhatsApp</label><a href="https://wa.me/201010123245" target="_blank">+20 101 012 3245</a></div>
+              </div>
+              <div class="cinfo-item" style="justify-content: center;">
+                <div class="cinfo-icon"><i class="fas fa-map-marker-alt"></i></div>
+                <div style="text-align: left;"><label>Location</label><p>Shubra El Kheima, Qalyubia, Egypt</p></div>
+              </div>
+            </div>
+            <!-- Social Buttons -->
+            <div class="contact-socials" style="justify-content: center; margin-top: 30px;">
+              <a href="https://linkedin.com/in/mohamed-galhoum-746279354" target="_blank" class="csoc-btn linkedin">
+                <i class="fab fa-linkedin-in"></i> LinkedIn
+              </a>
+              <a href="https://wa.me/201010123245" target="_blank" class="csoc-btn whatsapp">
+                <i class="fab fa-whatsapp"></i> WhatsApp
+              </a>
+              <a href="https://www.facebook.com/3Mgalhoum/" target="_blank" class="csoc-btn facebook">
+                <i class="fab fa-facebook-f"></i> Facebook
+              </a>
+              <a href="mailto:mdgalhoum@gmail.com" class="csoc-btn email">
+                <i class="fas fa-envelope"></i> mdgalhoum@gmail.com
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ======== FOOTER ======== -->
+      <footer class="footer">
+        <p>© 2026 <strong>Mohamed Saeed Galhoum</strong>. All Rights Reserved.</p>
+        <div class="footer-socials">
+          <a href="https://linkedin.com/in/mohamed-galhoum-746279354" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://wa.me/201010123245" target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+          <a href="https://www.facebook.com/3Mgalhoum/" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="mailto:mdgalhoum@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+        </div>
+        <a href="#home" class="back-top"><i class="fas fa-arrow-up"></i></a>
+      </footer>
+
+    </main><!-- end main-content -->
+
+  </div><!-- end layout -->
+
+  <script src="script.js"></script>
+</body>
+</html>
